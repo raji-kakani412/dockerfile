@@ -1,0 +1,7 @@
+ARG version 
+FROM almalinux:${version:-9}
+ARG course= "Devops with AWS" \
+    trainer= "Sivakumar Reddy" \
+    duration= "120hrs"
+RUN echo "COURSE: $course, TRAINER: $trainer and DURATION: $duration"
+CMD ["sleep", "100"]
