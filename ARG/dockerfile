@@ -1,5 +1,6 @@
 ARG version 
 FROM almalinux:${version:-9}
+#default version is mentioned after :- . Here it is 9
 ARG course= "Devops with AWS" \
     trainer= "Sivakumar Reddy" \
     duration= "120hrs"
